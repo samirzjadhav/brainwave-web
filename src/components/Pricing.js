@@ -1,6 +1,7 @@
 import React from "react";
 import Section from "./Section";
 import { smallSphere, stars } from "../assets";
+import Heading from "./Heading";
 
 const Pricing = () => {
   return (
@@ -24,6 +25,7 @@ const Pricing = () => {
             />
           </div>
         </div>
+        <Heading tags="Get started With Brainwave" />
       </div>
     </Section>
   );
